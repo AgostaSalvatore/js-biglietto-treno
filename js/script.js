@@ -8,3 +8,8 @@ if(age<18){
     ticketPrice = (km * priceKm) * 0.8;
     console.log('Il prezzo del biglietto e\' ' + ticketPrice + "€")
 }
+else if(age<=65){
+    console.log('Non verra\' applicato alcuno sconto');
+    ticketPrice = (km * priceKm);
+    console.log('Il prezzo del biglietto e\' ' + ticketPrice + "€");
+}
