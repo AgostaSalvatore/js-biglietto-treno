@@ -13,3 +13,8 @@ else if(age<=65){
     ticketPrice = (km * priceKm);
     console.log('Il prezzo del biglietto e\' ' + ticketPrice + "€");
 }
+else{
+    console.log('Verra\' applicato lo sconto per over 65');
+    ticketPrice = (km * priceKm) * 0.6;
+    console.log('Il prezzo del biglietto e\' ' + ticketPrice + "€")
+}
